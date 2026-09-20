@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khalid Bin Masud | Full Stack Developer</title>
+    <meta name="description" content="Khalid Bin Masud - Full Stack Developer (React, FastAPI, PostgreSQL) and competitive programmer. Portfolio, projects and contact.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Khalid Bin Masud | Full Stack Developer">
+    <meta property="og:description" content="Full Stack Developer (React, FastAPI, PostgreSQL) and competitive programmer. See my projects and get in touch.">
+    <meta name="twitter:card" content="summary">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <meta name="theme-color" content="#0d6efd">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Khalid Portfolio">
+    <meta name="application-name" content="Khalid Portfolio">
+
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%230d6efd' width='100' height='100'/><text x='50' y='65' font-size='70' font-weight='bold' fill='white' text-anchor='middle'>K</text></svg>">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top border-bottom border-secondary">
+        <div class="container-lg">
+            <a class="navbar-brand fw-bold" href="#home">
+                <i class="fas fa-code"></i> Khalid
+            </a>
+            <button class="navbar-toggler border-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item ms-2">
+                        <button id="themeToggle" type="button" class="btn btn-outline-primary btn-sm" title="Toggle theme" aria-label="Toggle light/dark theme">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                    <li class="nav-item ms-2">
+                        <a href="Resume.txt" download="Khalid_Bin_Masud_Resume.txt" id="resumeDownload" class="btn btn-primary btn-sm" title="Download Resume">
+                            <i class="fas fa-download"></i> Resume
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section py-5 border-bottom border-secondary">
+        <div class="container-lg py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-md-6 mb-4 mb-lg-0 text-center">
+                    <div class="profile-image-wrapper mb-4">
+                        <img src="Profile_picture.jpg" alt="Khalid Bin Masud" class="profile-image rounded-circle shadow-lg" width="280" height="280" fetchpriority="high" decoding="async">
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6">
+                    <h1 class="display-4 fw-bold mb-3 text-white">Khalid Bin Masud</h1>
+                    <h2 class="h3 text-primary mb-4">Full Stack Developer</h2>
+                    <p class="lead text-secondary mb-4" style="line-height: 1.8;">
+                        Building scalable, production-ready web applications with modern technologies.
+                        Passionate about problem-solving, clean code, and delivering user-centric solutions.
+                    </p>
+                    <div class="d-flex gap-3 flex-wrap">
+                        <a href="#projects" class="btn btn-primary btn-lg">View My Work</a>
+                        <a href="#contact" class="btn btn-outline-primary btn-lg">Get In Touch</a>
+                        <button id="downloadResumeHero" type="button" class="btn btn-outline-secondary btn-lg">
+                            <i class="fas fa-download"></i> Download Resume
+                        </button>
+                    </div>
+                    <div class="social-links mt-4">
+                        <a href="https://github.com/Khalid635" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub profile">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/khalid-bin-masud-817a913b9/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn profile">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://codeforces.com/profile/Khalid_Bin_Masud" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Codeforces profile">
+                            <i class="fas fa-code"></i>
+                        </a>
+                        <a href="mailto:khalidmasud22@gmail.com" class="social-icon" aria-label="Send an email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section py-5 border-bottom border-secondary">
+        <div class="container-lg">
+            <h2 class="section-title mb-5">About Me</h2>
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <p class="text-secondary mb-3" style="font-size: 1.1rem; line-height: 1.8;">
+                            I'm a <strong class="text-white">Computer Science student</strong> at Honors 2nd Year,
+                            driven by a passion for building efficient, scalable solutions to real-world problems.
+                            With hands-on experience in <strong class="text-primary">full-stack development</strong>,
+                            I specialize in crafting responsive frontends and robust backends that work seamlessly together.
+                        </p>
+                        <p class="text-secondary mb-3" style="font-size: 1.1rem; line-height: 1.8;">
+                            Beyond coding, I'm an active <strong class="text-white">competitive programmer</strong>,
+                            constantly challenging myself on platforms like Codeforces. I believe in writing clean,
+                            maintainable code and staying updated with modern development practices.
+                        </p>
+                        <p class="text-secondary" style="font-size: 1.1rem; line-height: 1.8;">
+                            <strong class="text-white">What drives me:</strong> Turning ideas into products,
+                            solving complex problems with elegant code, and continuous learning.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="stats-container">
+                        <div class="stat-box">
+                            <h4 class="text-primary fw-bold mb-2">2+</h4>
+                            <p class="text-secondary">Full Stack Projects</p>
+                        </div>
+                        <div class="stat-box">
+                            <h4 class="text-primary fw-bold mb-2">2nd Year</h4>
+                            <p class="text-secondary">CSE Honors Student</p>
+                        </div>
+                        <div class="stat-box">
+                            <h4 class="text-primary fw-bold mb-2">10+</h4>
+                            <p class="text-secondary">Technologies Used</p>
+                        </div>
+                        <div class="stat-box">
+                            <h4 class="text-primary fw-bold mb-2">Codeforces</h4>
+                            <p class="text-secondary">Active Competitive Programmer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section py-5 border-bottom border-secondary">
+        <div class="container-lg">
+            <h2 class="section-title mb-5">Skills &amp; Technologies</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="skill-card">
+                        <h5 class="text-primary mb-3"><i class="fas fa-laptop-code"></i> Languages</h5>
+                        <ul class="skill-list">
+                            <li>Python</li>
+                            <li>Java</li>
+                            <li>C / C++</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="skill-card">
+                        <h5 class="text-primary mb-3"><i class="fas fa-paint-brush"></i> Frontend</h5>
+                        <ul class="skill-list">
+                            <li>React 19</li>
+                            <li>Bootstrap 5</li>
+                            <li>Tailwind CSS</li>
+                            <li>HTML / CSS</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="skill-card">
+                        <h5 class="text-primary mb-3"><i class="fas fa-server"></i> Backend</h5>
+                        <ul class="skill-list">
+                            <li>FastAPI</li>
+                            <li>SQLAlchemy</li>
+                            <li>JWT Authentication</li>
+                            <li>RESTful APIs</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="skill-card">
+                        <h5 class="text-primary mb-3"><i class="fas fa-database"></i> Databases</h5>
+                        <ul class="skill-list">
+                            <li>PostgreSQL</li>
+                            <li>SQLite</li>
+                            <li>ORM / Pydantic</li>
+                            <li>Data Validation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section py-5 border-bottom border-secondary">
+        <div class="container-lg">
+            <h2 class="section-title mb-5">Featured Projects</h2>
+            <div class="row g-4">
+
+                <div class="col-lg-6">
+                    <div class="project-card h-100">
+                        <div class="project-header">
+                            <h3 class="text-white mb-2">Swift Logistics</h3>
+                            <span class="badge bg-primary">Full Stack</span>
+                        </div>
+                        <p class="text-secondary mb-3">
+                            A complete parcel booking and delivery tracking system for courier services.
+                            Features role-based access (Admin/User), real-time status tracking, JWT authentication,
+                            and comprehensive parcel management with search, filter, and export capabilities.
+                        </p>
+                        <div class="tech-stack mb-3">
+                            <span class="tech-badge">React 19</span>
+                            <span class="tech-badge">FastAPI</span>
+                            <span class="tech-badge">PostgreSQL</span>
+                            <span class="tech-badge">JWT Auth</span>
+                            <span class="tech-badge">Tailwind CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://swift-logistics-frontend.vercel.app" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <i class="fas fa-globe"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/Khalid635/swift-logistics-frontend" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <i class="fab fa-github"></i> Frontend Code
+                            </a>
+                            <a href="https://github.com/Khalid635/swift-logistics-backend" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <i class="fab fa-github"></i> Backend Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="project-card h-100">
+                        <div class="project-header">
+                            <h3 class="text-white mb-2">Expense Tracker API</h3>
+                            <span class="badge bg-info">Backend</span>
+                        </div>
+                        <p class="text-secondary mb-3">
+                            A robust RESTful API for managing personal expenses built with FastAPI.
+                            Implements JWT-based authentication, Pydantic validation, SQLAlchemy ORM,
+                            and comprehensive CRUD operations with role-based access control.
+                        </p>
+                        <div class="tech-stack mb-3">
+                            <span class="tech-badge">FastAPI</span>
+                            <span class="tech-badge">SQLAlchemy</span>
+                            <span class="tech-badge">Pydantic</span>
+                            <span class="tech-badge">PostgreSQL</span>
+                            <span class="tech-badge">JWT</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Khalid635/expense-tracker-api" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="https://github.com/Khalid635/expense-tracker-api#readme" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <i class="fas fa-book"></i> Documentation
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="project-card h-100">
+                        <div class="project-header">
+                            <h3 class="text-white mb-2">CocktailHub</h3>
+                            <span class="badge bg-success">Frontend</span>
+                        </div>
+                        <p class="text-secondary mb-3">
+                            An interactive React application for discovering cocktail recipes and ingredients.
+                            Demonstrates modern frontend practices with component-based architecture,
+                            API integration, and responsive design.
+                        </p>
+                        <div class="tech-stack mb-3">
+                            <span class="tech-badge">React</span>
+                            <span class="tech-badge">Axios</span>
+                            <span class="tech-badge">Bootstrap</span>
+                            <span class="tech-badge">REST API</span>
+                            <span class="tech-badge">Responsive Design</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Khalid635/cocktailhub" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="project-card h-100 bg-gradient-cp">
+                        <div class="project-header">
+                            <h3 class="text-white mb-2">Competitive Programming</h3>
+                            <span class="badge bg-warning">Problem Solving</span>
+                        </div>
+                        <p class="text-secondary mb-3">
+                            Active competitive programmer on Codeforces solving complex algorithmic problems.
+                            Focus on data structures, algorithms, and optimization. Continuously improving
+                            problem-solving skills and expanding knowledge.
+                        </p>
+                        <div class="tech-stack mb-3">
+                            <span class="tech-badge">Algorithms</span>
+                            <span class="tech-badge">Data Structures</span>
+                            <span class="tech-badge">C++</span>
+                            <span class="tech-badge">Problem Solving</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://codeforces.com/profile/Khalid_Bin_Masud" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <i class="fas fa-code"></i> Codeforces Profile
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="github" class="github-stats-section py-5 border-bottom border-secondary">
+        <div class="container-lg">
+            <h2 class="section-title mb-5">GitHub Activity</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="github-widget text-center">
+                        <a href="https://github.com/Khalid635" target="_blank" rel="noopener noreferrer" aria-label="Khalid635 on GitHub">
+                            <img src="https://ghchart.rshah.org/0d6efd/Khalid635"
+                                 alt="Khalid635 GitHub contribution graph for the last year"
+                                 class="img-fluid github-chart" loading="lazy"
+                                 onerror="this.closest('.github-widget').classList.add('is-fallback')">
+                        </a>
+                        <p class="github-fallback text-secondary mb-0">
+                            The contribution graph is unavailable right now. You can see my activity directly on GitHub.
+                        </p>
+                    </div>
+                    <div class="text-center mt-4">
+                        <a href="https://github.com/Khalid635" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary">
+                            <i class="fab fa-github"></i> View Full GitHub Profile
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="blog-section py-5 border-bottom border-secondary">
+        <div class="container-lg">
+            <h2 class="section-title mb-5">Articles</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <article class="blog-card coming-soon text-center">
+                        <i class="fas fa-pen-nib coming-soon-icon" aria-hidden="true"></i>
+                        <h3>Technical articles coming soon</h3>
+                        <p>Write-ups about building and deploying my projects with FastAPI, React and PostgreSQL are planned. Check back later!</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section py-5 border-bottom border-secondary">
+        <div class="container-lg">
+            <h2 class="section-title mb-5">Get In Touch</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <p class="text-secondary text-center mb-5" style="font-size: 1.1rem;">
+                        I'm always interested in hearing about new projects and opportunities.
+                        Feel free to reach out through any of the following channels.
+                    </p>
+
+                    <div class="contact-form-wrapper mb-5">
+                        <form id="contactForm" class="contact-form">
+                            <input type="text" name="_gotcha" class="d-none" tabindex="-1" autocomplete="off" aria-hidden="true">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Your Name</label>
+                                <input type="text" class="form-control form-control-dark" id="name" name="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Your Email</label>
+                                <input type="email" class="form-control form-control-dark" id="email" name="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" class="form-control form-control-dark" id="subject" name="subject" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control form-control-dark" id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </button>
+                            <div id="formStatus" class="mt-3" role="status" aria-live="polite"></div>
+                        </form>
+                    </div>
+
+                    <div class="text-center mb-4">
+                        <p class="text-secondary">or connect with me on</p>
+                    </div>
+
+                    <div class="contact-grid">
+                        <a href="mailto:khalidmasud22@gmail.com" class="contact-card">
+                            <i class="fas fa-envelope"></i>
+                            <h5>Email</h5>
+                            <p>khalidmasud22@gmail.com</p>
+                        </a>
+                        <a href="https://github.com/Khalid635" target="_blank" rel="noopener noreferrer" class="contact-card">
+                            <i class="fab fa-github"></i>
+                            <h5>GitHub</h5>
+                            <p>Khalid635</p>
+                        </a>
+                        <a href="https://www.linkedin.com/in/khalid-bin-masud-817a913b9/" target="_blank" rel="noopener noreferrer" class="contact-card">
+                            <i class="fab fa-linkedin"></i>
+                            <h5>LinkedIn</h5>
+                            <p>Khalid Bin Masud</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer bg-dark border-top border-secondary py-4">
+        <div class="container-lg text-center text-secondary">
+            <p class="mb-2">© <span id="year">2026</span> Khalid Bin Masud. All rights reserved.</p>
+            <p class="small">Crafted with <i class="fas fa-heart text-danger"></i> • Deployed on Vercel</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>

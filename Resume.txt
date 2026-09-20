@@ -1,0 +1,205 @@
+═══════════════════════════════════════════════════════════════════════════════
+                        KHALID BIN MASUD
+                      Full Stack Developer
+           Email: khalidmasud22@gmail.com
+    GitHub: https://github.com/Khalid635 | LinkedIn: linkedin.com/in/khalid-bin-masud
+═══════════════════════════════════════════════════════════════════════════════
+
+PROFESSIONAL SUMMARY
+────────────────────
+Passionate and driven full-stack developer with hands-on experience building
+scalable, production-ready web applications. Computer Science honors student
+with strong foundation in algorithms, data structures, and modern technologies.
+Active competitive programmer with focus on problem-solving and code optimization.
+
+
+TECHNICAL SKILLS
+────────────────
+Languages:          Python, Java, C++, C, JavaScript
+Frontend:           React 19, Bootstrap 5, Tailwind CSS, HTML/CSS, Axios
+Backend:            FastAPI, SQLAlchemy, Pydantic, JWT Authentication, REST APIs
+Databases:          PostgreSQL, SQLite, ORM (Object-Relational Mapping)
+Deployment:         Vercel, Render, GitHub Pages
+Tools & Platforms:  Git, GitHub, VS Code, Postman, Docker basics
+
+
+FEATURED PROJECTS
+─────────────────
+
+1. SWIFT LOGISTICS - Full Stack Parcel Management System
+   ─────────────────────────────────────────────────────
+   Role: Full Stack Developer (Solo)
+
+   Description:
+   A complete parcel booking and delivery tracking system for courier services.
+   Demonstrates full-stack capabilities with user authentication, role-based access
+   control, real-time status tracking, and comprehensive parcel management.
+
+   Technologies Used:
+   • Frontend: React 19, Tailwind CSS, Axios
+   • Backend: FastAPI, SQLAlchemy ORM, Pydantic
+   • Database: PostgreSQL (Production), SQLite (Development)
+   • Authentication: JWT tokens, bcrypt password hashing
+   • Deployment: Vercel (Frontend), Render (Backend)
+
+   Key Features:
+   ✓ User registration with admin approval workflow
+   ✓ Role-based access control (Admin & User roles)
+   ✓ Parcel CRUD operations with validation
+   ✓ Public parcel tracking without login
+   ✓ Advanced search, filtering, sorting, and pagination
+   ✓ CSV export functionality
+   ✓ Real-time status updates
+   ✓ Bangladesh location hierarchy (District → Upazila → Thana)
+
+   Live Demo: https://swift-logistics-frontend.vercel.app
+   GitHub Frontend: https://github.com/Khalid635/swift-logistics-frontend
+   GitHub Backend: https://github.com/Khalid635/swift-logistics-backend
+   API Base: https://swift-logistics-api.onrender.com
+
+
+2. EXPENSE TRACKER API - RESTful Backend Service
+   ─────────────────────────────────────────────
+   Role: Backend Developer (Solo)
+
+   Description:
+   A robust, production-ready RESTful API for personal expense management.
+   Demonstrates backend best practices including proper authentication,
+   data validation, error handling, and database design.
+
+   Technologies Used:
+   • Framework: FastAPI (Python)
+   • Database: PostgreSQL with SQLAlchemy ORM
+   • Validation: Pydantic models
+   • Authentication: JWT tokens with role-based access
+   • Security: bcrypt for password hashing
+
+   Key Features:
+   ✓ JWT-based user authentication
+   ✓ Pydantic models for strict data validation
+   ✓ SQLAlchemy ORM for database operations
+   ✓ Role-based access control
+   ✓ Comprehensive error handling
+   ✓ RESTful endpoint design
+   ✓ Database migrations ready
+
+   GitHub Repository: https://github.com/Khalid635/expense-tracker-api
+   Documentation: README with API endpoints and usage
+
+
+3. COCKTAILHUB - React Frontend Application
+   ──────────────────────────────────────────
+   Role: Frontend Developer (Solo)
+
+   Description:
+   An interactive web application for discovering cocktail recipes and ingredients.
+   Demonstrates modern React practices with component-based architecture,
+   API integration, and responsive design.
+
+   Technologies Used:
+   • React 19 with hooks
+   • Bootstrap 5 for styling
+   • Axios for API calls
+   • Responsive design
+
+   Key Features:
+   ✓ Cocktail recipe browsing
+   ✓ Ingredient search
+   ✓ Responsive mobile design
+   ✓ Modern component architecture
+
+   GitHub Repository: https://github.com/Khalid635/cocktailhub
+
+
+EDUCATION
+─────────
+Program:    Bachelor of Science in Computer Science (Honors)
+Status:     Currently in 2nd Year
+Focus:      Web Development, Algorithms, Data Structures, Software Engineering
+
+
+COMPETITIVE PROGRAMMING
+───────────────────────
+Platform:   Codeforces
+Profile:    https://codeforces.com/profile/Khalid_Bin_Masud
+Status:     Actively solving problems and participating in contests
+Focus:      Algorithms, Data Structures, Problem Solving, Optimization
+Experience: Regular practice with focus on problem-solving approach
+
+
+ADDITIONAL SKILLS & EXPERTISE
+──────────────────────────────
+Software Development:
+  • Clean code practices and SOLID principles
+  • Version control with Git and GitHub
+  • Responsive web design and mobile-first approach
+  • API design, documentation, and testing
+  • Database design and optimization
+  • Error handling and debugging
+
+Development Practices:
+  • Agile methodology understanding
+  • Code review and collaboration
+  • Documentation and comments
+  • Testing and debugging
+  • Performance optimization
+
+Tools & Technologies:
+  • Code Editors: VS Code
+  • Version Control: Git, GitHub
+  • API Testing: Postman
+  • Database Tools: pgAdmin, SQLite Browser
+  • Deployment: Command line, Git workflows
+  • Basic Docker understanding
+
+
+ACHIEVEMENTS & HIGHLIGHTS
+──────────────────────────
+✓ Built 2+ full-stack applications from concept to production
+✓ Deployed applications on Vercel and Render
+✓ Implemented JWT authentication and role-based access control
+✓ Active competitive programmer on Codeforces
+✓ Strong foundation in algorithm design and data structures
+✓ Experience with both SQL (PostgreSQL) and ORM (SQLAlchemy)
+✓ Responsive design across all devices
+✓ RESTful API design and implementation
+
+
+SOFT SKILLS
+────────────
+• Problem-solving and analytical thinking
+• Self-motivated and quick learner
+• Attention to detail and code quality
+• Communication and collaboration
+• Time management and project delivery
+• Continuous learning and improvement
+
+
+PROFESSIONAL INTERESTS
+──────────────────────
+• Full-stack web development
+• Scalable system design
+• Algorithm optimization
+• Cloud deployment and DevOps
+• Open-source contributions
+• Competitive programming
+
+
+AVAILABILITY
+─────────────
+Status:     Currently available for internships and projects
+Time Zone:  Bangladesh Standard Time (UTC+6)
+Flexibility: Open to remote and on-site opportunities
+
+
+REFERENCES & PORTFOLIOS
+────────────────────────
+• GitHub Profile: https://github.com/Khalid635
+• LinkedIn: https://www.linkedin.com/in/khalid-bin-masud-817a913b9/
+• Codeforces: https://codeforces.com/profile/Khalid_Bin_Masud
+
+
+═══════════════════════════════════════════════════════════════════════════════
+Last Updated: September 2024
+For inquiries or opportunities: khalidmasud22@gmail.com
+═══════════════════════════════════════════════════════════════════════════════
