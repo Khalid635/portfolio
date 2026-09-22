@@ -78,8 +78,8 @@ function initTheme() {
     });
 }
 
-const RESUME_URL = 'Resume.txt';
-const RESUME_DOWNLOAD_NAME = 'Khalid_Bin_Masud_Resume.txt';
+const RESUME_URL = 'Khalid_Bin_Masud_Resume.pdf';
+const RESUME_DOWNLOAD_NAME = 'Khalid_Bin_Masud_Resume.pdf';
 
 function initResumeDownload() {
     document.querySelectorAll('#resumeDownload, #downloadResumeHero').forEach(btn => {
@@ -132,7 +132,7 @@ function initContactForm() {
         if (submitBtn) submitBtn.disabled = true;
 
         try {
-            const response = await fetch('https://formspree.io/f/xyzgqwpb', {
+            const response = await fetch('https://formspree.io/f/xljdjdzb', {
                 method: 'POST',
                 body: new FormData(contactForm),
                 headers: { 'Accept': 'application/json' }
@@ -223,7 +223,7 @@ function initRevealAnimations() {
     if (prefersReducedMotion || !('IntersectionObserver' in window)) return;
 
     const targets = document.querySelectorAll(
-        '.skill-card, .project-card, .stat-box, .contact-card, .blog-card, .github-widget'
+        '.skill-card, .project, .stat, .contact-form, .github-widget'
     );
 
     const observer = new IntersectionObserver((entries) => {
@@ -260,3 +260,11 @@ document.addEventListener('DOMContentLoaded', () => {
     initRevealAnimations();
     initFooterYear();
 });
+
+const certTrigger = document.querySelector('[data-cert-trigger]');
+const certLightbox = document.getElementById('certLightbox');
+if (certTrigger && certLightbox) {
+  certTrigger.addEventListener('click', () => certLightbox.hidden = false);
+  certLightbox.addEventListener('click', () => certLightbox.hidden = true);
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') certLightbox.hidden = true; });
+}

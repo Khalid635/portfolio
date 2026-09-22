@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v2';
+const CACHE_VERSION = 'v5';
 const CACHE_NAME = `portfolio-cache-${CACHE_VERSION}`;
 
 const PRECACHE_URLS = [
@@ -8,8 +8,15 @@ const PRECACHE_URLS = [
   'script.js',
   'manifest.json',
   'Profile_picture.jpg',
-  'Resume.txt',
-  'icon-192.png'
+  'Khalid_Bin_Masud_Resume.pdf',
+  'admin_panel.png',
+  'CocktailHub.png',
+  'phitron-certificate.webp',
+  'og-image.png',
+  'icon-192.png',
+  'icon-512.png',
+  'icon-maskable-512.png',
+  'apple-touch-icon.png'
 ];
 
 const CDN_HOSTS = [

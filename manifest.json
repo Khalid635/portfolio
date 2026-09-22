@@ -2,12 +2,12 @@
   "id": "./",
   "name": "Khalid Bin Masud - Full Stack Developer Portfolio",
   "short_name": "Khalid Portfolio",
-  "description": "Professional portfolio showcasing full-stack web development projects, skills, and competitive programming",
+  "description": "Portfolio of Khalid Bin Masud: full-stack web projects (React, FastAPI, PostgreSQL), skills and contact.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#0f1117",
-  "theme_color": "#0d6efd",
+  "background_color": "#0a0d14",
+  "theme_color": "#0a0d14",
   "icons": [
     {
       "src": "icon-192.png",
